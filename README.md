@@ -1,2 +1,3 @@
 # DFIR_cxp2269_CSEC464
-Stackpole pls
+
+Chris Partridge CSEC 464 Forensics
