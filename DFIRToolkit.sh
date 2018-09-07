@@ -5,6 +5,11 @@
 # Notes: This is clearly a vulnerable script, written late at night, while hyped out on caffeine.
 #        You're better off not running this at home. Or at work. Or really anywhere, ever.
 
+
+# ------ Preflight Checks ------
+
+
+# ------ Acquire Input ------
 # -- Time
 # reqs: current time, timezone, uptime
 
@@ -23,6 +28,9 @@
 
 # -- Boot
 # reqs: services, programs, registry location, command, user run as
+
+# -- Tasks
+# reqs: scheduled tasks
 
 # -- Network
 # reqs: ARP table, MACs, routing table, IP addrs, DHCP, DNS, gateways, listening, connections, DNS cache
@@ -46,3 +54,6 @@
 
 # -- Custom
 # undecided. grab logfiles perhaps?
+
+
+# ------ Render Output ------
